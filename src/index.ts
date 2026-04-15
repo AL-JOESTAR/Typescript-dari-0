@@ -55,3 +55,35 @@ function pesan (pesan:string): string{
 }
 
 console.log(pesan("halo dunia"));
+
+// interface
+interface identitas {
+    nim:number,
+    nama:string,
+}
+
+let mahasiswa_1:identitas ={
+    nim:123,
+    nama:"reza",
+}
+
+console.log(mahasiswa_1);
+
+
+
+//intersection (gabungan beberapa interface)
+interface dosen {
+    nidn : number,
+    nama_dosen:string;
+}
+
+type dpa = identitas & dosen;
+
+let dpa = {
+    nim:123,
+    nama:"anton",
+    nidn:2908,
+    nama_dosen:"morger",
+}
+
+console.log(dpa);
