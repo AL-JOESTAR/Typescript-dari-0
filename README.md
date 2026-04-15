@@ -39,3 +39,9 @@ Aktifkan dan ubah
 ```properties
 tsc && node bundle/index.js
 ```
+
+### Reference
+
+```properties
+https://youtu.be/TZ87Hyqvy10?si=jF5XZ-W_hA5rsvm-
+```
